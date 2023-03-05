@@ -24,6 +24,8 @@ register(){
     console.log(res,'res')
   })
 }
-
+Signin(){
+  this.keycloakService.login();
+}
 
 }

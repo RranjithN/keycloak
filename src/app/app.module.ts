@@ -7,11 +7,19 @@ import { AppComponent } from './app.component';
 import { KeycloakAngularModule, KeycloakService } from 'keycloak-angular';
 import { initializeKeycloak } from '../app/utility/app.init';
 import { HeaderComponent } from './public/header/header.component';
+import { FooterComponent } from './public/footer/footer.component';
+import { DashboardComponent } from './public/dashboard/dashboard.component';
+import { DeleteComponent } from './public/delete/delete.component';
+import { PagenotfoundComponent } from './public/pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent,
+    DashboardComponent,
+    DeleteComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,

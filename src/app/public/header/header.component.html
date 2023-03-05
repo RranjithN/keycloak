@@ -1,1 +1,4 @@
 <p>header works!</p>
+<button (click)="Signin()" *ngIf="!isUserlogged">Login</button>
+<button (click)="register()" *ngIf="!isUserlogged">Show register</button>
+<button (click)="logout()" *ngIf="isUserlogged">Logout</button>
