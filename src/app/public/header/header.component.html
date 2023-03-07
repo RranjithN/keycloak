@@ -1,4 +1,12 @@
-<p>header works!</p>
-<button (click)="Signin()" *ngIf="!isUserlogged">Login</button>
-<button (click)="register()" *ngIf="!isUserlogged">Show register</button>
-<button (click)="logout()" *ngIf="isUserlogged">Logout</button>
+
+<div class="container">
+  <div class="header">
+  <nav>
+    <a routerLink="/dashboard" routerLinkActive="active"style="margin-right: 11px;margin-bottom: 10px;margin-left: 10px;">Home</a>
+    <a routerLink="/about" routerLinkActive="active">About</a>
+    <a routerLink="/home" routerLinkActive="active" *ngIf="!isUserlogged" (click)="Signin()" style="margin-right: 11px;margin-bottom: 10px;margin-left: 10px;">Login</a>
+    <a routerLink="/about" routerLinkActive="active" *ngIf="!isUserlogged" (click)="register()" style="margin-right: 11px;margin-bottom: 10px;margin-left: 10px;">Register</a>
+    <a routerLink="/about" routerLinkActive="active" *ngIf="isUserlogged" (click)="logout()">Logout</a>
+  </nav>
+  </div>
+</div>

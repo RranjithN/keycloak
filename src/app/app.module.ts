@@ -11,6 +11,8 @@ import { FooterComponent } from './public/footer/footer.component';
 import { DashboardComponent } from './public/dashboard/dashboard.component';
 import { DeleteComponent } from './public/delete/delete.component';
 import { PagenotfoundComponent } from './public/pagenotfound/pagenotfound.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { PagenotfoundComponent } from './public/pagenotfound/pagenotfound.compon
   imports: [
     BrowserModule,
     AppRoutingModule,
-    KeycloakAngularModule
+    KeycloakAngularModule,
+    BrowserAnimationsModule,
+    MatButtonModule
   ],
   providers: [
     {

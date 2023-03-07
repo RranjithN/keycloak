@@ -15,6 +15,7 @@ export class HeaderComponent implements OnInit {
       console.log(res,'reess');
       this.isUserlogged = res;
     })
+    
   }
   
   register(){

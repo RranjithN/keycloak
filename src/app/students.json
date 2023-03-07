@@ -1,0 +1,23 @@
+[
+    {
+        "id" :1,
+        "name" :"red mi 5 pro",
+        "price":10000,
+        "screensize" : "5'innch",
+        "image":"Oppo_64GB_varient.jpg"
+    },
+    {
+        "id" :2,
+        "name" :"oneplus",
+        "price":16000,
+        "screensize" : "6.3'innch",
+        "image":"oneplus_new_model.jpg"
+    },
+    {
+        "id" :3,
+        "name" :"real me 5 pro",
+        "price":14000,
+        "screensize" : "6.5'innch",
+        "image":"realme_128gb_ram.jpg"
+    }
+]
